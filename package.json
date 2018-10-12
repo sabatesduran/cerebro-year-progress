@@ -1,0 +1,30 @@
+{
+  "name": "cerebro-year-progress",
+  "version": "0.1.0",
+  "description": "Cerebro plugin that tells you the percentage of the year that we are right now.",
+  "repository": "https://github.com/sabatesduran/cerebro-year-progress",
+  "author": "Dídac Sabatés <sabatesduran@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "cerebro",
+    "cerebro-plugin",
+    "year",
+    "progress"
+  ],
+  "dependencies": {
+    "cerebro-tools": "^0.1.8",
+    "cerebro-ui": "^0.0.16",
+    "date-fns": "^1.29.0"
+  },
+  "devDependencies": {
+    "cerebro-scripts": "0.0.25"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "cerebro-scripts start",
+    "build": "cerebro-scripts build",
+    "test": "cerebro-scripts test",
+    "clear": "cerebro-scripts clear",
+    "prepublish": "yarn clear && yarn build"
+  }
+}
