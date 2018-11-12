@@ -1,6 +1,6 @@
 {
   "name": "cerebro-year-progress",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Cerebro plugin that tells you the percentage of the year that we are right now.",
   "repository": "https://github.com/sabatesduran/cerebro-year-progress",
   "author": "Dídac Sabatés <sabatesduran@gmail.com>",
